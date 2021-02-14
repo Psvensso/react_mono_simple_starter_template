@@ -1,0 +1,24 @@
+{
+  "name": "@namespace/root",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "useWorkspaces": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "applications/*"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn wsrun -p '@namespace/web' -r start",
+    "build": "yarn wsrun -p '@namespace/web' -r build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.5",
+    "wsrun": "^5.2.4"
+  }
+}

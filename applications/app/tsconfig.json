@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+      "jsx": "react",
+      "rootDir": "src",
+      "outDir": "lib",
+      "allowJs": true,
+      "tsBuildInfoFile": "./.cache/tsconfig.tsbuildinfo",
+      "baseUrl": "."
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"],
+    "references": []
+  }

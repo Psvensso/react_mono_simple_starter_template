@@ -1,0 +1,16 @@
+{
+  "name": "@namespace/lib1",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf ./.cache & rimraf ./lib",
+    "start": "tsc --watch",
+    "build": "yarn clean && tsc"
+  },
+  "baseUrl": "./src",
+  "types": "lib/index.d.ts"
+}

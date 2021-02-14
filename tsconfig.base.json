@@ -1,0 +1,51 @@
+{
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "outDir": "<**SHOULD_BE_OVERWRITTEN_IN_LOCAL_TSCONFIG##!??**>",
+      /* Basic Options */
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "newLine": "LF",
+      "target": "ES6",
+      "sourceMap": true,
+      "declaration": true,
+      "skipLibCheck": true,
+      "declarationMap": true,
+      "jsx": "react",
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "es2015",
+        "es2015.symbol.wellknown",
+        "es2015.collection",
+        "es2015.reflect",
+        "es2016.array.include",
+        "es2017.object",
+        "es2017.string",
+        "es2018.promise"
+      ],
+  
+      "composite": true,
+      /* Strict Type-Checking Options */
+      /* Additional Checks */
+      "noUnusedLocals": true,
+      /* Report errors on unused locals. */
+      "noUnusedParameters": true,
+      /* Report errors on unused parameters. */
+      "noImplicitReturns": true,
+      /* Report error when not all code paths in function return a value. */
+      "noFallthroughCasesInSwitch": true,
+  
+      /* Report errors for fallthrough cases in switch statement. */
+      "resolveJsonModule": true,
+  
+      "preserveConstEnums": true,
+      "noEmitOnError": false,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "downlevelIteration": true
+    }
+  }
