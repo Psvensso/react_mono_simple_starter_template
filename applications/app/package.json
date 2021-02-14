@@ -6,8 +6,8 @@
   "license": "MIT",
   "useWorkspaces": true,
   "scripts": {
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "workspaces": {
     "packages": [
