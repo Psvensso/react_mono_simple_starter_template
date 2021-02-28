@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base.json",
+    "references": [
+        {
+            "path": "packages/app"
+        },
+        {
+            "path": "packages/lib1"
+        },
+        {
+            "path": "packages/lib2"
+        }
+    ],
+    "files": [],
+    "include": []
+}

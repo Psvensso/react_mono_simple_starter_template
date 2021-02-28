@@ -7,15 +7,31 @@
   "useWorkspaces": true,
   "workspaces": {
     "packages": [
-      "packages/*",
-      "applications/*"
-    ]
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "resolutions": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@hot-loader/react-dom": "^17.0.1"
   },
   "scripts": {
-    "dev": "yarn wsrun -p '@namespace/web' -r start",
+    "postinstall": "lerna bootstrap",
+    "dev": "lerna run --scope @namespace/web start",
     "build": "yarn wsrun -p '@namespace/web' -r build"
   },
   "devDependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack": "^5.24.2",
+    "ts-loader": "^8.0.17",
+    "webpack-dev-server": "^3.11.2",
+    "html-webpack-plugin": "^5.2.0",
+    "react-hot-loader": "^4.13.0",
+    "@hot-loader/react-dom": "^17.0.1",
+    "webpack-merge": "^5.7.3",
     "lerna": "^3.22.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.1.5",
