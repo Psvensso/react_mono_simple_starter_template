@@ -221,44 +221,24 @@
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@types/react/global.d.ts": {
-        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
-        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
-        "affectsGlobalScope": true
-      },
-      "../../node_modules/csstype/index.d.ts": {
-        "version": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
-        "signature": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/@types/prop-types/index.d.ts": {
-        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
-        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/@types/react/index.d.ts": {
-        "version": "9692a141afe8f30a5542189ffceb1a043f3d1fbaf0e07d28a8e9ac6d32c4cb01",
-        "signature": "9692a141afe8f30a5542189ffceb1a043f3d1fbaf0e07d28a8e9ac6d32c4cb01",
-        "affectsGlobalScope": true
-      },
-      "../../node_modules/@types/react-dom/index.d.ts": {
-        "version": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
-        "signature": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
-        "affectsGlobalScope": false
-      },
-      "../lib1/lib/example/example.d.ts": {
-        "version": "8c708e5f55f995e437e5f9a539bc15b9b47784d5cf59b28b568ef25ce7593d0e",
+      "./src/example/example.ts": {
+        "version": "a6d119b2c2299d11bc952de94cf43556e608f5ac2b943f8a380a4ba4cfe718fc",
         "signature": "8c708e5f55f995e437e5f9a539bc15b9b47784d5cf59b28b568ef25ce7593d0e",
         "affectsGlobalScope": false
       },
-      "../lib1/lib/index.d.ts": {
-        "version": "abc88e3a480a95b7d1e8d3e2359698919322b0093f51e9e091aee6ece8b6c767",
-        "signature": "abc88e3a480a95b7d1e8d3e2359698919322b0093f51e9e091aee6ece8b6c767",
+      "../lib2/lib/example/lib2test.d.ts": {
+        "version": "4fe0a1d3f8fc409ef7f9b39054a7065992f015a62f3699f6ccbe4820cf800ab0",
+        "signature": "4fe0a1d3f8fc409ef7f9b39054a7065992f015a62f3699f6ccbe4820cf800ab0",
         "affectsGlobalScope": false
       },
-      "./src/index.tsx": {
-        "version": "a3e33aca9392b984166c18462668a0795b65de9d8baad744b3e0d6deedb85fa3",
-        "signature": "f667f6b1d66ba55f0dcd27f5ff050063fecfe289bad00e8c5d48344a775c1439",
+      "../lib2/lib/index.d.ts": {
+        "version": "37bee0886b7c7d86e9361fe01cf825a937442c7b5d337829dd2134ba249053cf",
+        "signature": "37bee0886b7c7d86e9361fe01cf825a937442c7b5d337829dd2134ba249053cf",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "87fbaceffb7d73774245b47dcdfc8fe5f864aefd611b4e850bb7a57f8e434e1e",
+        "signature": "abc88e3a480a95b7d1e8d3e2359698919322b0093f51e9e091aee6ece8b6c767",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/eslint/helpers.d.ts": {
@@ -545,11 +525,36 @@
         "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
         "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
         "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/csstype/index.d.ts": {
+        "version": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
+        "signature": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react/index.d.ts": {
+        "version": "9692a141afe8f30a5542189ffceb1a043f3d1fbaf0e07d28a8e9ac6d32c4cb01",
+        "signature": "9692a141afe8f30a5542189ffceb1a043f3d1fbaf0e07d28a8e9ac6d32c4cb01",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/@types/react-dom/index.d.ts": {
+        "version": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
+        "signature": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
+        "affectsGlobalScope": false
       }
     },
     "options": {
       "pretty": true,
-      "outDir": "./dist",
+      "outDir": "./lib",
       "module": 99,
       "target": 99,
       "moduleResolution": 2,
@@ -586,8 +591,6 @@
       "forceConsistentCasingInFileNames": true,
       "downlevelIteration": true,
       "rootDir": "./src",
-      "noEmit": true,
-      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -844,13 +847,12 @@
         "../../node_modules/@types/react/global.d.ts",
         "../../node_modules/csstype/index.d.ts"
       ],
-      "./src/index.tsx": [
-        "../../node_modules/@types/react-dom/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
-        "../lib1/lib/index.d.ts"
+      "./src/index.ts": [
+        "../lib2/lib/index.d.ts",
+        "./src/example/example.ts"
       ],
-      "../lib1/lib/index.d.ts": [
-        "../lib1/lib/example/example.d.ts"
+      "../lib2/lib/index.d.ts": [
+        "../lib2/lib/example/lib2test.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1107,9 +1109,12 @@
         "../../node_modules/@types/react/global.d.ts",
         "../../node_modules/csstype/index.d.ts"
       ],
-      "../lib1/lib/index.d.ts": [
-        "../lib1/lib/example/example.d.ts",
-        "../lib2/lib/index.d.ts"
+      "./src/index.ts": [
+        "../lib2/lib/index.d.ts",
+        "./src/example/example.ts"
+      ],
+      "../lib2/lib/index.d.ts": [
+        "../lib2/lib/example/lib2test.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1219,19 +1224,10 @@
       "../../node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "../../node_modules/typescript/lib/lib.esnext.string.d.ts",
       "../../node_modules/typescript/lib/lib.esnext.weakref.d.ts",
-      "./src/index.tsx",
-      "../lib1/lib/example/example.d.ts",
-      "../lib1/lib/index.d.ts"
-    ],
-    "affectedFilesPendingEmit": [
-      [
-        "./src/index.tsx",
-        1
-      ],
-      [
-        "../lib1/lib/index.d.ts",
-        1
-      ]
+      "./src/example/example.ts",
+      "./src/index.ts",
+      "../lib2/lib/example/lib2test.d.ts",
+      "../lib2/lib/index.d.ts"
     ]
   },
   "version": "4.2.3"

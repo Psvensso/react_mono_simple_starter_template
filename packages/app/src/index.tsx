@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { libOneTestDeepExportExample, lib2test } from "@namespace/lib1";
+import {
+  libOneTestDeepExportExample,
+  lib2test,
+} from "@namespace/lib1/src/index";
 
 ReactDOM.render(
   <div>
