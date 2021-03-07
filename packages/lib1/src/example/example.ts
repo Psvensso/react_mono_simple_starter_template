@@ -1,1 +1,1 @@
-export const libOneTestDeepExportExample = "libOneTestDeepExportExample_val";
+export const libOneTestDeepExportExample = "from lib1";

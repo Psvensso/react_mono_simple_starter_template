@@ -4,12 +4,13 @@
     "pretty": true,
     "outDir": "<**SHOULD_BE_OVERWRITTEN_IN_LOCAL_TSCONFIG##!??**>",
     /* Basic Options */
-    "module": "commonjs",
+    "module": "esnext",
+    "target": "esnext",
+
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "newLine": "LF",
-    "target": "ES6",
     "sourceMap": true,
     "declaration": true,
     "skipLibCheck": true,

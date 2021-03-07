@@ -5,12 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "useWorkspaces": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": []
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "resolutions": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -20,21 +17,20 @@
   },
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "dev": "lerna run --scope @namespace/web start",
-    "build": "yarn wsrun -p '@namespace/web' -r build"
+    "start": "yarn workspace @namespace/app start",
+    "build": "yarn workspace @namespace/app build"
   },
   "devDependencies": {
-    "webpack-cli": "^4.5.0",
-    "webpack": "^5.24.2",
-    "ts-loader": "^8.0.17",
-    "webpack-dev-server": "^3.11.2",
-    "html-webpack-plugin": "^5.2.0",
-    "react-hot-loader": "^4.13.0",
     "@hot-loader/react-dom": "^17.0.1",
-    "webpack-merge": "^5.7.3",
+    "html-webpack-plugin": "^5.2.0",
     "lerna": "^3.22.1",
+    "react-hot-loader": "^4.13.0",
     "rimraf": "^3.0.2",
+    "ts-loader": "^8.0.17",
     "typescript": "^4.1.5",
-    "wsrun": "^5.2.4"
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
   }
 }
