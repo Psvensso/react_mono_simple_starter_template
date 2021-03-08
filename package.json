@@ -20,8 +20,8 @@
   },
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "dev": "lerna run --scope @namespace/web start",
-    "build": "yarn wsrun -p '@namespace/web' -r build"
+    "dev": "yarn workspace @namespace/app start",
+    "build": "yarn workspace @namespace/app build"
   },
   "devDependencies": {
     "webpack-cli": "^4.5.0",

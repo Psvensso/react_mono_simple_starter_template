@@ -7,7 +7,8 @@
   "useWorkspaces": true,
   "scripts": {
     "start": "webpack serve --config ../../configs/webpack.serve.config.js",
-    "build": "webpack --config ../../configs/webpack.prod.config.js"
+    "build": "webpack --config ../../configs/webpack.prod.config.js",
+    "compile": "tsc -b"
   },
   "dependencies": {
     "@namespace/lib1": "^1.0.0",
