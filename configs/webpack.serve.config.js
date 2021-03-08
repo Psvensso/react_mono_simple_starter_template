@@ -1,7 +1,6 @@
 var baseConfig = require("./webpack.base");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 var path = require("path");
-var fs = require("fs");
 var webpackMerge = require("webpack-merge");
 
 module.exports = webpackMerge.merge(baseConfig, {
@@ -15,16 +14,10 @@ module.exports = webpackMerge.merge(baseConfig, {
     hot: true,
     port: 448,
     https: true,
-    ///cert: fs.readFileSync(path.resolve(__dirname, "../devcerts/server.crt")),
-    //key: fs.readFileSync(path.resolve(__dirname, "../devcerts/server.key")),
-    compress: true,
     disableHostCheck: true,
-    watchOptions: {
-      aggregateTimeout: 1000,
-    },
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".tsx", ".ts"],
     alias: {
       "react-dom": "@hot-loader/react-dom",
     },

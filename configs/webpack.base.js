@@ -16,16 +16,6 @@ module.exports = {
           projectReferences: true,
         },
       },
-
-      {
-        test: /\.png|jpg|gif/,
-        type: "asset",
-        parser: {
-          dataUrlCondition: {
-            maxSize: 4 * 1024, // 4kb
-          },
-        },
-      },
     ],
   },
   resolve: {
