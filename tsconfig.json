@@ -9,6 +9,9 @@
         },
         {
             "path": "packages/lib2"
+        },
+        {
+            "path": "packages/vite-app"
         }
     ],
     "files": [],
