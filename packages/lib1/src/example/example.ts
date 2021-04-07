@@ -1,1 +1,2 @@
-export const libOneTestDeepExportExample: string = "from lib1";
+export const libOneTestDeepExportExample: string = ", this is lib1";
+console.log("Ok");

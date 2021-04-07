@@ -1,10 +1,9 @@
 {
-  "name": "@namespace/root",
+  "name": "root",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "license": "MIT",
-  "useWorkspaces": true,
   "workspaces": [
     "packages/*"
   ],
@@ -16,7 +15,9 @@
     "@hot-loader/react-dom": "^17.0.1"
   },
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "postinstall": "yarn bootstrap",
     "start": "yarn workspace @namespace/app start",
     "build": "yarn workspace @namespace/app build"
   },

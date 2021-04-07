@@ -1,19 +1,13 @@
 {
   "name": "@namespace/lib1",
   "version": "1.0.0",
-  "main": "src/index.ts",
-  "types": "src/index.d.ts",
   "license": "MIT",
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "clean": "rimraf ./.cache & rimraf ./lib",
     "start": "tsc --watch",
     "build": "yarn clean && tsc"
   },
-  "baseUrl": "./src",
   "dependencies": {
-    "@namespace/lib2": "~1.0.0"
+    "@namespace/lib2": "*"
   }
 }
